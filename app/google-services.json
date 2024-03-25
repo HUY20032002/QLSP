@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "63909247761",
+    "firebase_url": "https://giuaky-ed357-default-rtdb.firebaseio.com",
+    "project_id": "giuaky-ed357",
+    "storage_bucket": "giuaky-ed357.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63909247761:android:557e164ce3573d758e2ab0",
+        "android_client_info": {
+          "package_name": "com.example.qlsp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUVOMdUmsjuEj4bDve9Pc3w5nyL9YC9q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/item_image_view"
+                android:src="@drawable/img1"
+                android:scaleType="centerCrop">
+            </ImageView>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/textView_NAME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên: ">
+            </TextView>
+            <TextView
+                android:id="@+id/textView_Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mô tả: ">
+            </TextView>
+            <TextView
+                android:id="@+id/textView_Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá: ">
+            </TextView>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btn_add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerInside"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:contentDescription="delete_exetr"
+            android:src="@drawable/plus">
+        </ImageButton>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
